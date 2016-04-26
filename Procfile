@@ -1,3 +1,3 @@
 server: node server.js
-mongoserver: C:\mongodb\bin\mongod
-mongodb: C:\mongodb\bin\mongo
+mongoserver:./mongodb/bin/mongod --dbpath=$HOME/mongodb/data(27017)
+

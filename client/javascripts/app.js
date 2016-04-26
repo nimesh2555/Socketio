@@ -73,7 +73,7 @@ var main = function(toDoObjects) {
                     $inputLabel = $("<p>").text("Description: "),
                     $tagInput = $("<input>").addClass("tags"),
                     $tagLabel = $("<p>").text("Tags: "),
-                    $button = $("<span>").text("Add");
+                    $button = $("<span>").text("+");
 
                 $button.on("click", function() {
                     var description = $input.val(),

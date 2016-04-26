@@ -1,0 +1,1 @@
+SET DEBUG=web:* & SET PORT=80 & nodemon
