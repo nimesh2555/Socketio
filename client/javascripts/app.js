@@ -1,6 +1,6 @@
 var main = function(toDoObjects) {
     "use strict";
-    console.log("SANITY CHECK");
+    
     var toDos = toDoObjects.map(function(toDo) {
 
         return toDo.description;
